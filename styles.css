@@ -1,55 +1,59 @@
 * {
-    max-width: 100%;
-    max-height: auto;
-    font-family: roboto;
+  max-width: 100%;
+  max-height: auto;
+  font-family: roboto;
 }
 
 body {
-    margin: auto;
+  margin: auto;
 }
 
 #nav-hero-bg {
-    background-color: #1F2937;
-    background-size: cover
+  background-color: #1f2937;
+  background-size: cover;
 }
-.nav-bar, .hero {
-    padding: 3rem 18rem;
+.nav-bar,
+.hero,
+.call-to-action {
+  padding: 3rem 18rem;
 }
 
 .hero {
-    display: inline-flex;
-    padding-bottom: 8rem;
+  display: inline-flex;
+  padding-bottom: 8rem;
 }
 
-.intro > .main-text, .intro > .second-text {
-    margin-bottom: 5px;
+.intro > .main-text,
+.intro > .second-text {
+  margin-bottom: 5px;
 }
 
 .nav-bar {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .box-1 {
-    font-size: 24px;
-    color: #f9faf8;
-    font-weight: bold;
+  font-size: 24px;
+  color: #f9faf8;
+  font-weight: bold;
 }
 
 .box-2 {
-    display: flex;
-    gap: 1rem;
+  display: flex;
+  gap: 1rem;
 }
 
 .main-text {
-    font-size: 48px;
-    font-weight: bolder;
-    color: #f9faf8;
+  font-size: 48px;
+  font-weight: bolder;
+  color: #f9faf8;
 }
 
-.second-text, .box-2 {
-    font-size: 18px;
-    color: #E5E7EB;
+.second-text,
+.box-2 {
+  font-size: 18px;
+  color: #e5e7eb;
 }
 
 .img {
@@ -59,17 +63,98 @@ body {
 }
 
 .sign-up {
-    align-items: center;
-    background-color: #3882f6;
-    font-size: 16px;
-    padding: 0.5rem 2rem;
-    border-radius: 8px;
-    color: #f9faf8;
-    font-weight: bold;
+  align-items: center;
+  background-color: #3882f6;
+  font-size: 16px;
+  padding: 0.5rem 2rem;
+  border-radius: 8px;
+  color: #f9faf8;
+  font-weight: bold;
 }
 
-
 .random-title {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
+  margin: 2.5rem 0;
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 900;
+}
+
+.random-img {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+}
+
+.random-img > .box-3 {
+  width: 9rem;
+  height: 9rem;
+  border: solid #3882f6 3px;
+  border-radius: 12px;
+}
+
+.random-img-text {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+}
+
+.random-img-text > .box-text {
+  width: 9rem;
+  height: 9rem;
+  border: solid white 3px;
+  border-radius: 12px;
+  text-align: center;
+  font-size: 16px;
+}
+
+.quote {
+  background-color: #e5e7eb;
+  padding: 5rem;
+}
+
+.quote > .quote-text {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: lighter;
+  color: #1f2937;
+  text-align: center;
+}
+
+.quote > .quote-author {
+  font-size: 26px;
+  font-weight: bolder;
+  text-align: center;
+  margin: 1rem;
+}
+
+.call-to-action-border {
+  display: flex;
+  justify-content: space-between;
+  background-size: auto;
+  background-color: #3882f6;
+  border: solid #3882f6 20px;
+  border-radius: 8px;
+  padding: 1rem 3rem;
+}
+
+.action-text {
+  color: #f9faf8;
+}
+
+.action-text > .action-text-1 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.call-to-action-border > .sign-up-2 {
+  align-items: center;
+  background-color: #3882f6;
+  font-size: 16px;
+  padding: 0.5rem 2rem;
+  border-radius: 8px;
+  color: #f9faf8;
+  font-weight: bold;
+  border: solid white 1px;
 }
